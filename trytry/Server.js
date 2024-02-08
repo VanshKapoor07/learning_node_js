@@ -52,8 +52,6 @@ app.post('/addUser', (req, res) => {
 //app.post frontend gives data
 //app.update
 //app.delete
-
-
 // Start server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log('Server running on port ${PORT}'));
