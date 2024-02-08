@@ -47,8 +47,6 @@ app.post('/addUser', (req, res) => {
         res.redirect('/');
     });
 });
-
-
 //app.post frontend gives data
 //app.update
 //app.delete
